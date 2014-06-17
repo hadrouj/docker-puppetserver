@@ -2,4 +2,4 @@
 
 FROM ubuntu:14.04
 RUN apt-get -y update
-RUN	apt-get install -y puppetmaster
+RUN	apt-get install -q -y puppetmaster
